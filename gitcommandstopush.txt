@@ -14,3 +14,7 @@ origin  https://github.com/erimarko/selenium-project.git (push)
 git branch -M main
 
 git push -u origin main
+
+
+#run repl
+uv run python
