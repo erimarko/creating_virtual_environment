@@ -1,0 +1,51 @@
+
+
+uv venv
+
+You can also specify a name:
+
+uv venv myenv
+
+Or a Python version:
+
+uv venv --python 3.12
+
+Activate the environment
+Windows (PowerShell)
+
+.venv\Scripts\Activate.ps1
+
+Windows (CMD)
+
+.venv\Scripts\activate.bat
+
+Linux/macOS
+
+source .venv/bin/activate
+
+Install packages
+
+uv pip install requests
+
+
+Example
+
+mkdir demo
+cd demo
+
+uv venv
+.venv\Scripts\Activate.ps1
+
+uv pip install requests
+
+python
+
+import requests
+print(requests.__version__)
+uv pip install beautifulsoup4
+uv pip install requests lxml
+
+To add it to a uv project managed through pyproject.toml, use:
+
+uv add beautifulsoup4
+

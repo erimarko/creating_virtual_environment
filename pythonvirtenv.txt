@@ -1,0 +1,5 @@
+code . ---v izbranem dirketoriju
+conda create -p testenv python==3.10 ali 3.10
+
+conda activate venv/ 
+pip install -r requirments.txt

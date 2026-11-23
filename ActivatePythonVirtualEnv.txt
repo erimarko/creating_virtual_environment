@@ -1,0 +1,14 @@
+In linux:
+
+source ./python_env/bin/activate
+
+ali source ./activate
+
+In cmd :
+
+.venv\Scripts\activate.bat
+
+in power shell:
+
+
+.\.venv\Scripts\Activate.ps1

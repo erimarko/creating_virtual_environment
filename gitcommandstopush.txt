@@ -1,0 +1,16 @@
+git status
+code .gitignore
+git add .
+
+git commit -m "Initial commit - Selenium Python automation project"
+
+git remote add origin https://github.com/erimarko/selenium-project.git
+
+git remote -v
+
+origin  https://github.com/erimarko/selenium-project.git (fetch)
+origin  https://github.com/erimarko/selenium-project.git (push)
+
+git branch -M main
+
+git push -u origin main
