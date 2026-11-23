@@ -49,3 +49,10 @@ To add it to a uv project managed through pyproject.toml, use:
 
 uv add beautifulsoup4
 
+
+#Install jupyter lab
+
+uv pip install jupyterlab
+
+
+
